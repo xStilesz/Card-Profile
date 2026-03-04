@@ -1,0 +1,54 @@
+/* ------------------------ Enter Button Anim ------------------------ */
+.enter-btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.15), inset 0 0 10px 3px rgba(255, 255, 255, 0.1);
+}
+
+/* ------------------------ Card Anim ------------------------ */
+.card:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.12);
+}
+
+/* ------------------------ Util Buttons Anim ------------------------ */
+.back:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.switch:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* ------------------------ Social Buttons ------------------------ */
+.rede:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+/* ------------------------ Emblems Icons ------------------------ */
+.emblem:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ------------------------ Games Capes ------------------------ */
+.capes:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ------------------------ Friends ------------------------ */
+.best:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}

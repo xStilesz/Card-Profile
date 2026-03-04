@@ -1,0 +1,45 @@
+/* ------------------------ Enter Button ------------------------ */
+.enter-btn {
+    width: 230px;
+    height: 65px;
+    background-color: #1E1E21;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 0 transparent;
+    cursor: pointer;
+
+    transition: all 0.5s ease-in;
+}
+
+/* ------------------------ Util Buttons ------------------------ */
+.util-btn {
+    width: 73px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #1E1E21;
+
+    position: absolute;
+    display: flex;
+    right: 5px;
+    top: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.back, .switch {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: #FFFFFF00;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    padding: 5px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    transition: 0.3s;
+}
