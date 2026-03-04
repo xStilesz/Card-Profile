@@ -217,11 +217,11 @@ body {
 /* ------------------------ Sla Container ------------------------ */
 .container {
     width: 450px;
-    height: 118px;
+    height: 122px;
     border-radius: 15px;
     background-color: #070709;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    top: 490px;
+    top: 486px;
 
     position: absolute;
     display: flex;
