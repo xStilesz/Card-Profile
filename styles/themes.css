@@ -1,0 +1,131 @@
+.banner {
+    height: 200px;
+    border-radius: 14px;
+
+    overflow: hidden;
+}
+
+.util-btn {
+    width: 73px;
+    height: 38px;
+    border-radius: 20px;
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    justify-content: space-evenly;
+}
+
+.close, .switch {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: #FFFFFF00;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px;
+
+    position: relative;
+}
+
+.close img {
+    width: 15px;
+    height: 15px;
+}
+.switch img {
+    width: 17px;
+    height: 19px;
+}
+
+.icon {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 145px;
+
+    overflow: hidden;
+    z-index: 10;
+}
+
+.social {
+    height: 65px;
+    border-radius: 15px;
+
+    top: 122px;
+    justify-content: space-evenly;
+}
+
+.redes {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    backdrop-filter: blur(16px);
+    border: none;
+}
+
+/* .redes a img {
+    width: 35px;
+    height: 35px;
+} */
+
+.status {
+    height: 160px;
+    border-radius: 15px;
+
+    top: 122px;
+}
+
+.badges {
+    height: 64px;
+    border-radius: 15px;
+
+    top: 32px;
+    justify-content: space-evenly;
+}
+
+.emblem {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.games {
+    height: 230px;
+    border-radius: 15px;
+
+    top: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 11px;
+    gap: 0 13px;
+}
+
+.capes {
+    width: 70px;
+    height: 92px;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.vazio-1 {
+    height: 100px;
+    border-radius: 15px;
+
+    top: 32px;
+}
+
+.vazio-2 {
+    height: 106px;
+    border-radius: 15px;
+
+    top: 32px;
+}

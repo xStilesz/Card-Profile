@@ -1,0 +1,88 @@
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .enter-btn {
+    width: 190px;
+    height: 54px;
+  }
+  .card {
+    width: 420px;
+    height: 554px;
+    padding: 12px;
+    gap: 8px;
+  }
+  .banner {
+    height: 184px;
+  }
+  .util-btn {
+    width: 67px;
+    height: 35px;
+    border-radius: 12px;
+  }
+  .close, .switch {
+    width: 27px;
+    height: 27px;
+  }
+  .close img {
+    width: 13px;
+    height: 13px;
+  }
+  .switch img {
+    width: 15px;
+    height: 17px;
+  }
+  .icon {
+    width: 134px;
+    height: 134px;
+    top: 125px;
+  }
+  .social {
+    height: 53px;
+    border-radius: 10px;
+    top: 127px;
+  }
+  .redes {
+    width: 43px;
+    height: 43px;
+    border-radius: 6px;
+  }
+  .status {
+    height: 148px;
+    border-radius: 14px;
+    top: 127px;
+  }
+  .badges {
+    height: 58px;
+    border-radius: 10px;
+    top: 32px;
+  }
+  .emblem {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+  }
+  .games {
+    height: 210px;
+    top: 32px;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 13px;
+    gap: 8px;
+  }
+  .capes {
+    width: 66px;
+    height: 87px;
+    border-radius: 8px;
+  }
+  .vazio-1 {
+    height: 81px;
+    top: 32px;
+  }
+  .vazio-2 {
+    height: 124px;
+    top: 32px;
+  }
+}

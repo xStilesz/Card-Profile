@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="../styles/card.css">
+    <link rel="stylesheet" href="../styles/themes.css">
+    <link rel="stylesheet" href="../styles/animations.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link rel="stylesheet" href="../styles/tablet.css">
+    
     <title>Stilesz Card</title>
 </head>
 <body>
@@ -11,64 +17,115 @@
     <button id="open-card" class="enter-btn">
         <div class="shimmer"></div>
     </button>
-    <div id="card-1" class="card close">
-        <div class="banner">
-            <div class="util-btn">
-                <button id="back-1" class="back"></button>
-                <button id="switch-1" class="switch"></button>
+    <section id="card-1" class="card closed">
+        <section class="container banner">
+            <img src="../assets/img/capa-perfil.png" class="image">
+            <div class="small-container util-btn">
+                <button id="close-1" class="small-container close">
+                    <img src="../assets/svg/close.svg">
+                </button>
+                <button id="switch-1" class="small-container switch">
+                    <img src="../assets/svg/switch.svg">
+                </button>
             </div>
+        </section>
+        <div class="container icon">
+            <img src="../assets/img/icon.png" class="image">
         </div>
-        <div class="icon">
-            <img src="../assets/Icon.gif" class="pfp">
-        </div>
-        <div class="social">
-            <div id="instagram" class="rede"></div>
-            <div id="github" class="rede"></div>
-            <div id="discord" class="rede"></div>
-            <div id="steam" class="rede"></div>
-            <div id="spotify" class="rede"></div>
-            <div id="tiktok" class="rede"></div>
-            <div id="9bloods" class="rede"></div>
-        </div>
-        <div class="sobremim"></div>
-    </div>
+        <section class="container social">
+            <button id="instagram" class="small-container redes">
+                <a href="https://www.instagram.com/llimasszx/" target="_blank"><img src="../assets/social/Instagram.svg" alt="" class="image"></a>
+            </button>
+            <button id="github" class="small-container redes">
+                <a href="https://github.com/xStilesz" target="_blank"><img src="../assets/social/Github.svg" alt="" class="image"></a>
+            </button>
+            <button id="discord" class="small-container redes">
+                <img src="../assets/social/Discord.svg" alt="" class="image">
+            </button>
+            <button id="steam" class="small-container redes">
+                <a href="https://steamcommunity.com/id/xstilesz/" target="_blank"><img src="../assets/social/Steam.svg" alt="" class="image"></a>
+            </button>
+            <button id="spotify" class="small-container redes">
+                <a href="https://open.spotify.com/user/31f4m7azwnexg3y4flqoawg2gsui" target="_blank"><img src="../assets/social/Spotify.svg" alt="" class="image"></a>
+            </button>
+            <button id="tiktok" class="small-container redes">
+                <a href="https://www.tiktok.com/@.stilesz_" target="_blank"><img src="../assets/social/TikTok.svg" alt="" class="image"></a>
+            </button>
+            <button id="outros" class="small-container redes">
+                <a href="#"><img src="../assets/svg/more.svg" alt="" class="image"></a>
+            </button>
+        </section>
+        <section class="container status"></section>
+    </section>
 
-    <div id="card-2" class="card close">
-        <div class="util-btn" style="background-color: #070709;">
-            <button id="back-2" class="back"></button>
-            <button id="switch-2" class="switch"></button>
+    <section id="card-2" class="card closed">
+        <div class="small-container util-btn" style="background-color: #070709;">
+            <button id="close-2" class="small-container close">
+                <img src="../assets/SVG/Close.svg" alt="">
+            </button>
+            <button id="switch-2" class="small-container switch">
+                <img src="../assets/SVG/Switch.svg" alt="">
+            </button>
         </div>
-        <div id="badges" class="badges">
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-            <div id="emblem-1" class="emblem"></div>
-        </div>
-        <div class="games">
-            <div id="game-1" class="capes"></div>
-            <div id="game-2" class="capes"></div>
-            <div id="game-3" class="capes"></div>
-            <div id="game-4" class="capes"></div>
-            <div id="game-5" class="capes"></div>
-            <div id="game-6" class="capes"></div>
-            <div id="game-7" class="capes"></div>
-            <div id="game-8" class="capes"></div>
-            <div id="game-9" class="capes"></div>
-            <div id="game-10" class="capes"></div>
-        </div>
-        <div class="friends">
-            <div id="best-1" class="best"></div>
-            <div id="best-2" class="best"></div>
-            <div id="best-3" class="best"></div>
-            <div id="best-4" class="best"></div>
-            <div id="best-5" class="best"></div>
-        </div>
-        <div class="container"></div>
-    </div>
+        <section id="badges" class="container badges">
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+            <div id="emblem-1" class="small-container emblem">
+                <img src="" alt="" class="image">
+            </div>
+        </section>
+        <section class="container games">
+            <div id="game-1" class="small-container capes">
+                <img src="../assets/capes/War Thunder.svg" class="image">
+            </div>
+            <div id="game-2" class="small-container capes">
+                <img src="../assets/capes/Project Zomboid.svg" class="image">
+            </div>
+            <div id="game-3" class="small-container capes">
+                <img src="../assets/capes/GTA V.svg" class="image">
+            </div>
+            <div id="game-4" class="small-container capes">
+                <img src="../assets/capes/Phasmophobia.svg" class="image">
+            </div>
+            <div id="game-5" class="small-container capes">
+                <img src="../assets/capes/DayZ.svg" class="image">
+            </div>
+            <div id="game-6" class="small-container capes">
+                <img src="../assets/capes/Among US.svg" class="image">
+            </div>
+            <div id="game-7" class="small-container capes">
+                <img src="../assets/capes/Arma 3.svg" class="image">
+            </div>
+            <div id="game-8" class="small-container capes">
+                <img src="../assets/capes/Euro Truck.svg" class="image">
+            </div>
+            <div id="game-9" class="small-container capes">
+                <img src="../assets/capes/Broken Arrow.svg" class="image">
+            </div>
+            <div id="game-10" class="small-container capes">
+                <img src="../assets/capes/Assetto Corsa.svg" class="image">
+            </div>
+        </section>
+        <section class="container vazio-1"></section>
+        <section class="container vazio-2"></section>
+    </section>
 
-    <script src="../utils/card.js"></script>
+    <script src="../utils/card.js" type="module"></script>
 </body>
 </html>

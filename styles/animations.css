@@ -1,6 +1,6 @@
 /* ------------------------ Anim Glass ------------------------ */
 .shimmer {
-    background: linear-gradient(to right, transparent, rgba(250, 250, 550, 0.2), transparent);
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
     position: absolute;
     inset: 0;
     transform: translateX(-100%);
@@ -19,14 +19,13 @@
 
 /* ------------------------ Card Anim ------------------------ */
 .card:hover {
-    transition: 0.5s;
-    transform: scale(1.02);
+    transition: 0.7s;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.12);
 }
 
 /* ------------------------ Util Buttons Anim ------------------------ */
-.back:hover {
+.close:hover {
     transition: 0.3s;
     transform: scale(1.05);
     border: 1px solid rgba(255, 255, 255, 0.6);
@@ -38,8 +37,19 @@
     border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
+.close img:hover, .switch img:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+/* ------------------------ Icon ------------------------ */
+.icon:hover {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.12);
+}
+
 /* ------------------------ Social Buttons ------------------------ */
-.rede:hover {
+.redes:hover {
     transition: 0.3s;
     transform: scale(1.1);
 }
@@ -48,19 +58,19 @@
 .emblem:hover {
     transition: 0.3s;
     transform: scale(1.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ------------------------ Games Capes ------------------------ */
-.capes:hover {
-    transition: 0.5s;
-    transform: scale(1.5);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+.games:hover .capes {
+    filter: blur(5px);
 }
+.games .capes:hover {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.2);
 
-/* ------------------------ Friends ------------------------ */
-.best:hover {
-    transition: 0.4s;
-    transform: scale(1.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    filter: blur(0px);
+    z-index: 10;
+
+    transform: scale(1.5);
+    transition: all 0.3s ease-in;
 }
